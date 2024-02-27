@@ -1,0 +1,8 @@
+java_library(
+    name = "consumer",
+    srcs = glob(["src/main/java/**/*.java"]),
+    deps = [
+        "//example/extension",
+        "//example/library2",
+    ],
+)
