@@ -1,0 +1,1 @@
+# bazel-java-header-compilation-bug
